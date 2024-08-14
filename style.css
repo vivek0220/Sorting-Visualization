@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#arrayInput, #algorithmSelect, button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 300px;
+    margin: 20px 0;
+}
+
+.bar {
+    position: relative;
+    margin: 0 2px;
+    background-color: #3498db;
+    width: 20px;
+    transition: transform 0.3s ease, height 0.3s ease;
+}
+
+.bar span {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    transition: top 0.3s ease;
+}
+
